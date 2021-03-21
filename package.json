@@ -1,0 +1,38 @@
+{
+  "name": "node-express-swagger-jest",
+  "version": "0.0.1",
+  "description": "A boilerplate to quickly setup a Node.js API with express.",
+  "main": "server.js",
+  "keywords": [
+    "nodejs",
+    "express",
+    "jest",
+    "swagger",
+    "starter"
+  ],
+  "author": "Ahmed DCHAR <dchar.ahmed@gmail.com>",
+  "license": "ISC",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dragoneel/node-express-swagger-jest.git"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --silent=false"
+  },
+  "dependencies": {
+    "bunyan": "1.8.15",
+    "express": "4.17.1",
+    "morgan": "1.10.0",
+    "swagger-jsdoc": "5.0.1",
+    "swagger-ui-express": "4.1.6"
+  },
+  "devDependencies": {
+    "jest": "26.6.3",
+    "supertest": "6.1.3"
+  }
+}
